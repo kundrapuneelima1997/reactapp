@@ -20,18 +20,15 @@ function Orders() {
 
           <div className='main3'>
 <Link to={`/orders/${item.id}`}>
+<img src={item.image} alt={item.ProductName} /> 
 
-<img src={item.image}/>
 </Link>
-<p>{"name:"+" "+item.ProductName}</p>
-<p>{"price:"+" "+item.Price}</p>
 
+ <p>Name: {item.ProductName}</p>
+ <p>Price: {item.Price}</p>
           </div>
         )
-
-         
-          
-        
+  
       })
      }
 
