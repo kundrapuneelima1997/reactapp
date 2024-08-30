@@ -16,7 +16,7 @@ function App() {
 <Router>
       
      <Routes>
-      <Route path='/' element={<Login/>}/>
+      <Route path='/reactapp' element={<Login/>}/>
       <Route path='/dashboard' element={<Dashboard/>}></Route>
       <Route path='/signup' element={<Signup/>}></Route>
         <Route path='/'element={<Login/>}></Route>
