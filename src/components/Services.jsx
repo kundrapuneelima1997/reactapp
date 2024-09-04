@@ -54,51 +54,74 @@ import Col from 'react-bootstrap/Col';
             </div>
             <button className="scroll-btn right-btn" onClick={() => scroll('right')}>&gt;</button>
         </div>
+        <div className="ser5">
+            <h1>Our beauty services</h1>
+        </div>
           <div className="ser4">
-          <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="https://templates.hibootstrap.com/jeel/default/assets/images/services/services1.jpg" />
+          <Card className='spy' >
+      <Card.Img className='pic1' variant="top" src="https://templates.hibootstrap.com/jeel/default/assets/images/services/services1.jpg" />
       <Card.Body>
         <Card.Title>Beauty Center</Card.Title>
         <Card.Text>
         It is a long established fact that a reader will be distracted by the readable
         </Card.Text>
-        <Button variant="primary">View more</Button>
+        <Button >View more</Button>
       </Card.Body>
     </Card>
 
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="https://templates.hibootstrap.com/jeel/default/assets/images/services/services2.jpg" />
+    <Card className='spy'>
+      <Card.Img className='pic1' variant="top" src="https://templates.hibootstrap.com/jeel/default/assets/images/services/services2.jpg" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Spa Center</Card.Title>
         <Card.Text>
         It is a long established fact that a reader will be distracted by the readable
         </Card.Text>
-        <Button variant="primary">View more</Button>
+        <Button >View more</Button>
       </Card.Body>
     </Card>
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="https://templates.hibootstrap.com/jeel/default/assets/images/services/services3.jpg" />
+    <Card className='spy'>
+      <Card.Img className='pic1' variant="top" src="https://templates.hibootstrap.com/jeel/default/assets/images/services/services3.jpg" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Massage</Card.Title>
         <Card.Text>
         It is a long established fact that a reader will be distracted by the readable
         </Card.Text>
-        <Button variant="primary">View more</Button>
-      </Card.Body>
-    </Card>
-
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180https://templates.hibootstrap.com/jeel/default/assets/images/services/services4.jpg" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-        It is a long established fact that a reader will be distracted by the readable
-        </Card.Text>
-        <Button variant="primary">View more</Button>
+        <Button >View more</Button>
       </Card.Body>
     </Card>
           </div>
-            
+            <div className="ser6">
+            <Card className='spy'>
+      <Card.Img className='pic1' variant="top" src="https://templates.hibootstrap.com/jeel/default/assets/images/services/services4.jpg" />
+      <Card.Body>
+        <Card.Title>Stone therapy</Card.Title>
+        <Card.Text>
+        It is a long established fact that a reader will be distracted by the readable
+        </Card.Text>
+        <Button >View more</Button>
+      </Card.Body>
+    </Card>
+    <Card className='spy'>
+      <Card.Img className='pic1' variant="top" src="https://templates.hibootstrap.com/jeel/default/assets/images/services/services6.jpg" />
+      <Card.Body>
+        <Card.Title>Stone therapy</Card.Title>
+        <Card.Text>
+        It is a long established fact that a reader will be distracted by the readable
+        </Card.Text>
+        <Button >View more</Button>
+      </Card.Body>
+    </Card>
+    <Card className='spy'>
+      <Card.Img className='pic1' variant="top" src="https://templates.hibootstrap.com/jeel/default/assets/images/services/services7.jpg" />
+      <Card.Body>
+        <Card.Title>Stone therapy</Card.Title>
+        <Card.Text>
+        It is a long established fact that a reader will be distracted by the readable
+        </Card.Text>
+        <Button >View more</Button>
+      </Card.Body>
+    </Card>
+            </div>
             </Col>
            
             </Row>

@@ -6,8 +6,8 @@ import { Container } from 'react-bootstrap';
 import Dropdown from 'react-bootstrap/Dropdown';
 import StarBorderPurple500Icon from '@mui/icons-material/StarBorderPurple500';
 import InsertChartOutlinedRoundedIcon from '@mui/icons-material/InsertChartOutlinedRounded';
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
+// import Card from 'react-bootstrap/Card';
+
 import SupervisorAccountOutlinedIcon from '@mui/icons-material/SupervisorAccountOutlined';
 import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOutlined';
 import { BarChart } from '@mui/x-charts/BarChart';
@@ -50,7 +50,7 @@ function Dashboard(){
         </div>
        </div><br/>
        <div className="chart">
-        <Card>
+        {/* <Card>
          <Card.Body>
         <Card.Title><InsertChartOutlinedRoundedIcon/>Income</Card.Title>
         <Card.Subtitle className='subtitle'><h1>5000K</h1></Card.Subtitle>
@@ -74,7 +74,7 @@ function Dashboard(){
          <Card.Link href="#"></Card.Link>
          <Card.Link href="#"></Card.Link>
          </Card.Body>
-          </Card>
+          </Card> */}
     </div>
     </div>
     <div className="income2">
@@ -127,7 +127,7 @@ function Dashboard(){
           <Col sm={3}>
           <div className="comment">
           <h1>Comments</h1>
-            <Card >
+            {/* <Card >
             
             <Card.Img src="https://img.freepik.com/premium-photo/young-beautiful-woman-is-performing-manicures-beauty-parlor_1218867-51036.jpg?w=900" />
          <Card.Body>
@@ -169,9 +169,9 @@ function Dashboard(){
        
       </Card.Body>
       </Card><br/>
-      </div>
+      </div> */}
       <div className="card3">
-      <Card >
+      {/* <Card >
             <Card.Img src="https://img.freepik.com/free-photo/brunette-girl-walking-through-park-autumn_1157-17764.jpg?t=st=1724752460~exp=1724756060~hmac=ef33aa6ceb9e289f1b977689aeec25e106754874a9e22fdb31920acb99bd1041&w=740" />
          <Card.Body>
          <StarBorderPurple500Icon/>    <StarBorderPurple500Icon/>    <StarBorderPurple500Icon/>
@@ -182,7 +182,7 @@ function Dashboard(){
        
        
       </Card.Body>
-      </Card>
+      </Card> */}
       </div><br/>
       <button>View all</button>
     </div>
