@@ -4,26 +4,30 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 function Contact() {
   return (
-    <div>
-        <Row>
+    <div className='com'>
+        <Row className='mt-5'>
             <Col sm={2}> <Header/></Col>
             <Col sm={10}>
+            <div className="A1">
+              <div className="container" id='num'>
             <Row>
+              
               <div className="contact">
-              <Col sm={6}>
+               
+              <Col sm={6} className='contact1' >
                <h1>Send Question</h1>
                <p>Your Name</p>
                <input type="text" /><br/>
                <p>Your Email</p>
                <input type="text" /><br/>
                <p>Your Message</p>
-               <input type="text" /><br/>
+               <input type="text" /><br/><br></br>
                <button>Send Message</button>
               </Col>
-              <Col sm={6}>
+              <Col sm={6} className='contact2'>
               <h1>Address</h1>
               <p>25 West 25th Street,Vizag, AP</p><br/>
-              <h1>Phones</h1>
+              <h1>Phone</h1>
               <p>+267346374</p>
               <p>+653538494</p><br/>
               <h1>Email</h1>
@@ -35,7 +39,8 @@ function Contact() {
               </Col>
               </div>
             </Row>
-
+            </div>
+            </div>
             
             </Col>
         </Row>

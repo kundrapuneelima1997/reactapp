@@ -4,11 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from './components/Login';
 import Signup from './components/Signup';
 import Dashboard from './components/Dashboard';
-import Services from './components/Services'
+import Services from './components/Services';
 import Header from './components/Header';
 import Orders from './components/Orders';
 import Logout from './components/Logout';
 import Contact from './components/Contact';
+import Navbars from './components/Navbars';
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path='/logout' element={<Logout/>}></Route>
         <Route path='/contact' element={<Contact/>}></Route>
         <Route path='/orders' element={<Orders/>}></Route>
+        <Route path='/navbar' element={<Navbars/>}></Route>
      </Routes> 
       </Router>
     </div>

@@ -9,6 +9,9 @@ import facepack from '../Assets/face pack.jpg';
 import faceserum from '../Assets/face serum.jpg';
 import facewash from '../Assets/face wash.jpg';
 import moisturiser from '../Assets/moisturiser.jpg';
+import lipbalm from '../Assets/lipbalm.jpg';
+import suncreen from '../Assets/suncreen.jpg';
+import bodylotion from '../Assets/bodylotion.jpg';
 export const productsData = [{
    
     "image":shampoo,
@@ -59,4 +62,21 @@ export const productsData = [{
      "image":moisturiser,
      "ProductName":"Taanvi.moisturiser",
      "Price":"299",
-}]
+   },
+
+   {
+    "image":lipbalm,
+     "ProductName":"Taanvi.lipbalm",
+     "Price":"199",
+   },
+   {
+    "image":suncreen,
+     "ProductName":"Taanvi.suncreen",
+     "Price":"299",
+   },
+   {
+    "image":bodylotion,
+     "ProductName":"Taanvi.bodylotion",
+     "Price":"399",
+   },
+]

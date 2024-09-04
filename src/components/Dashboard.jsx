@@ -10,7 +10,7 @@ import Card from 'react-bootstrap/Card';
 import SupervisorAccountOutlinedIcon from '@mui/icons-material/SupervisorAccountOutlined';
 import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOutlined';
 import { BarChart } from '@mui/x-charts/BarChart';
-
+import Navbars from './Navbars';
   
 
 
@@ -18,30 +18,15 @@ import { BarChart } from '@mui/x-charts/BarChart';
 function Dashboard(){
   return (
     <div className='dashboard'>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
-  <div className="container-fluid">
-  
-      <img src="https://img.freepik.com/free-vector/botanical-capital-letter-t-vector_53876-127459.jpg?t=st=1724747183~exp=1724750783~hmac=0946293efa5d7a9287120af0305bd63e6bb39c511860ad4f18f70d7ac9f0affc&w=740" width={80} height={80} alt="Bootstrap"  />
-  
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-      </ul>
-      <form className="d-flex" role="search">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button className="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
+    
+      <Navbars/>
+     
       <Container fluid>
       <Row> 
         <Col sm={2}>
         <Header/>
         </Col>
-        <Col sm={10}>
+        <Col sm={10} className='dashcontent'>
         
           <Row>
           <Col sm={9}>
@@ -145,7 +130,9 @@ function Dashboard(){
             
             <Card.Img src="https://img.freepik.com/premium-photo/young-beautiful-woman-is-performing-manicures-beauty-parlor_1218867-51036.jpg?w=900" />
          <Card.Body>
+          
          <StarBorderPurple500Icon/>   <StarBorderPurple500Icon/>   <StarBorderPurple500Icon/>   <StarBorderPurple500Icon/> 
+        
             <Card.Title>Best parlour</Card.Title>
              <Card.Text>
                 

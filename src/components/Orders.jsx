@@ -20,7 +20,7 @@ function Orders() {
 
           <div className='main3'>
 <Link to={`/orders/${item.id}`}>
-<img src={item.image} alt={item.ProductName} /> 
+<img src={item.image} alt={item.ProductName}  /> 
 
 </Link>
 
