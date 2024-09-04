@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/reactapp/static/css/main.5371cc44.css",
+    "main.js": "/reactapp/static/js/main.9cfb5c6f.js",
+    "static/js/453.1fd1f10b.chunk.js": "/reactapp/static/js/453.1fd1f10b.chunk.js",
+    "static/media/hair serum.jpg": "/reactapp/static/media/hair serum.0abbf7ca2c86e8f43eaa.jpg",
+    "static/media/bodylotion.jpg": "/reactapp/static/media/bodylotion.39dd32c62c19335a8583.jpg",
+    "static/media/hair conditioner.jpg": "/reactapp/static/media/hair conditioner.d3b36eed0bf986e22307.jpg",
+    "static/media/lipbalm.jpg": "/reactapp/static/media/lipbalm.7258b1ad1bdd4a8243b9.jpg",
+    "static/media/hairoil.jpg": "/reactapp/static/media/hairoil.1c22822f63a60f132835.jpg",
+    "static/media/face pack.jpg": "/reactapp/static/media/face pack.17aaa4b545b53613461c.jpg",
+    "static/media/hair mask.jpg": "/reactapp/static/media/hair mask.e8f28189c4f507298aac.jpg",
+    "static/media/moisturiser.jpg": "/reactapp/static/media/moisturiser.757205112d62453b8d53.jpg",
+    "static/media/face wash.jpg": "/reactapp/static/media/face wash.fa6eb5e07fbbd09168d4.jpg",
+    "static/media/shampoo.jpg": "/reactapp/static/media/shampoo.0d727730a6d28c89ba7e.jpg",
+    "static/media/face serum.jpg": "/reactapp/static/media/face serum.eb95a14513f849b4446e.jpg",
+    "static/media/suncreen.jpg": "/reactapp/static/media/suncreen.bbbb656b07ea95697efa.jpg",
+    "index.html": "/reactapp/index.html",
+    "main.5371cc44.css.map": "/reactapp/static/css/main.5371cc44.css.map",
+    "main.9cfb5c6f.js.map": "/reactapp/static/js/main.9cfb5c6f.js.map",
+    "453.1fd1f10b.chunk.js.map": "/reactapp/static/js/453.1fd1f10b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5371cc44.css",
+    "static/js/main.9cfb5c6f.js"
+  ]
+}
