@@ -4,6 +4,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
  import Navbars from './Navbars';
  import React, { useRef } from 'react';
+ import Card from 'react-bootstrap/Card';
+ import Button from 'react-bootstrap/Button';
  const Services = () => {
   const containerRef = useRef(null);
 
@@ -53,7 +55,48 @@ import Col from 'react-bootstrap/Col';
             <button className="scroll-btn right-btn" onClick={() => scroll('right')}>&gt;</button>
         </div>
           <div className="ser4">
-            
+          <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="https://templates.hibootstrap.com/jeel/default/assets/images/services/services1.jpg" />
+      <Card.Body>
+        <Card.Title>Beauty Center</Card.Title>
+        <Card.Text>
+        It is a long established fact that a reader will be distracted by the readable
+        </Card.Text>
+        <Button variant="primary">View more</Button>
+      </Card.Body>
+    </Card>
+
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="https://templates.hibootstrap.com/jeel/default/assets/images/services/services2.jpg" />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+        It is a long established fact that a reader will be distracted by the readable
+        </Card.Text>
+        <Button variant="primary">View more</Button>
+      </Card.Body>
+    </Card>
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="https://templates.hibootstrap.com/jeel/default/assets/images/services/services3.jpg" />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+        It is a long established fact that a reader will be distracted by the readable
+        </Card.Text>
+        <Button variant="primary">View more</Button>
+      </Card.Body>
+    </Card>
+
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="holder.js/100px180https://templates.hibootstrap.com/jeel/default/assets/images/services/services4.jpg" />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+        It is a long established fact that a reader will be distracted by the readable
+        </Card.Text>
+        <Button variant="primary">View more</Button>
+      </Card.Body>
+    </Card>
           </div>
             
             </Col>

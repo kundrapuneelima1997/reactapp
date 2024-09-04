@@ -7,6 +7,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import StarBorderPurple500Icon from '@mui/icons-material/StarBorderPurple500';
 import InsertChartOutlinedRoundedIcon from '@mui/icons-material/InsertChartOutlinedRounded';
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 import SupervisorAccountOutlinedIcon from '@mui/icons-material/SupervisorAccountOutlined';
 import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOutlined';
 import { BarChart } from '@mui/x-charts/BarChart';
