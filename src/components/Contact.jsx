@@ -2,10 +2,18 @@ import React from 'react'
 import Header from './Header'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Navbars from './Navbars';
+import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import XIcon from '@mui/icons-material/X';
 function Contact() {
   return (
     <div className='com'>
-        <Row className='mt-5'>
+      <Row>
+        <Col sm={12}>
+        <Navbars/></Col>
+       </Row>
+        <Row >
             <Col sm={2}> <Header/></Col>
             <Col sm={10}>
             <div className="A1">
@@ -35,6 +43,7 @@ function Contact() {
               <h1>Working Hours</h1>
               <p>Mon-Fri: 10:00-18:00 PM</p><br/>
               <h1>Follow Us</h1>
+              <h1><FacebookOutlinedIcon/> <InstagramIcon/> <XIcon/></h1>
               <p></p>
               </Col>
               </div>

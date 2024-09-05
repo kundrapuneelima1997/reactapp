@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col';
  import React, { useRef } from 'react';
  import Card from 'react-bootstrap/Card';
  import Button from 'react-bootstrap/Button';
+ import StarOutlinedIcon from '@mui/icons-material/StarOutlined';
  const Services = () => {
   const containerRef = useRef(null);
 
@@ -122,6 +123,48 @@ import Col from 'react-bootstrap/Col';
       </Card.Body>
     </Card>
             </div>
+            <div className="ser7 ">
+                <div className="rin ">
+                      <div className="bore">
+                        <h1>It Needs Professional Hands To Get Rid Of Your Daily Stress Off</h1>
+                        <br/><br/>
+                        <button>Make An Appointment</button>
+                      </div>
+                </div>
+            </div>
+            <br/>
+            <div className="special">
+              <h1>Meet Our Top Specialist</h1>
+              
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus quas adipisci earum</p>
+            </div>
+           <div className="ser8">
+            <div className="doc1">
+              <img src="https://templates.hibootstrap.com/jeel/default/assets/images/banner/banner-shape6.png" alt="" />
+              <h4>Tanvi</h4>
+              <p>Chief Beautician</p>
+            </div>
+            <div className="doc2">
+              <img src="https://templates.hibootstrap.com/jeel/default/assets/images/banner/banner-shape6.png" alt="" />
+              <h4>Padma </h4>
+              <p>Stone Therapist</p>
+            </div>
+            <div className="doc3">
+              <img src="https://templates.hibootstrap.com/jeel/default/assets/images/banner/banner-shape6.png" alt="" />
+              <h4> Bhumika </h4>
+              <p>Spa Specialist</p>
+            </div>
+           </div>
+           <br/><br/>
+           <div className="ser9">
+              <h1>Reviews From Our Clients</h1>
+              <div className="review">
+                <p>The beauty parlour excels in delivering high-quality services with a focus on client satisfaction. The staff demonstrates advanced technical skills and professionalism,  consistently exceptional experience. The sophisticated environment further enhances the overall service.</p>
+                
+                <h2>4.5</h2>
+                <h1><StarOutlinedIcon/> <StarOutlinedIcon/> <StarOutlinedIcon/> <StarOutlinedIcon/></h1>
+              </div>
+           </div>
             </Col>
            
             </Row>

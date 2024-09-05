@@ -2,12 +2,16 @@ import React from 'react'
 import Header from './Header'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
+import Navbars from './Navbars';
 import {productsData} from '../Data/Products';
 import { Link } from 'react-router-dom';
 function Orders() {
   return (
     <div>
+       <Row>
+        <Col sm={12}>
+        <Navbars/></Col>
+       </Row>
     <Row>
      <Col sm={2}><Header/></Col>
      <Col sm={10}>

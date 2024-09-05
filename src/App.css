@@ -246,18 +246,23 @@ padding-top: 8%;
     margin-top: 20px;
     background-image: radial-gradient(circle, #ffffff, #f2e8f7, #f0d0e7, #f1b6cc, #f09da8);
 }
+.logoutbody{
+background-color:rgb(121, 144, 111) ;
+
+}
 .out1{
     margin-top: 200px;
     height: 200px;
     margin-left: 380px;
     width:400px ;
-    border:2px solid #aa50ef;
+    border:2px solid #275a21;
     border-radius: 14px;
-    background-image: radial-gradient(circle, #ffffff, #eee8fe, #dfd0fc, #d4b7f7, #cc9df0);
+    background-color:#213c21 ;
 }
 .out1 h3{
     margin-top: 40px;
     margin-left:100px ;
+    color: #ffffff;
 }
 .out2{
     display: flex;
@@ -267,15 +272,15 @@ padding-top: 8%;
 }
 .out2 button{
     border-radius: 10px;
-    background: radial-gradient(circle, #ffffff, #f2e8f7, #f0d0e7, #f1b6cc, #f09da8); ;
+    background-color: #a0c69c;
 }
 .contact{
     display: flex;
-   border: 2px solid #f398c1;
+   border: 2px solid #213c21;
 border-radius: 16px;
     height: 700px;
-    background-color:rgb(173, 71, 71);
-    color: #fbcfd5;
+    background-color:rgba(70, 105, 62, 0.691);
+    color: #ffffff;
 }
 .contact2 ,.contact1{
     margin-top: 60px;
@@ -287,47 +292,50 @@ border-radius: 16px;
 }
 .contact1  input{
     border-radius: 10px;
-    background-color:#fbcfd5;
+    background-color:#f6f4f4;
 }
 .contact1 button{
     border-radius: 10px;
-    background-color:#fbcfd5;
+    background-color:#f6f2f2;
 }
 .contact h1{
    font-size: 28px;
 }
 .A1{
-    margin-top: 20px;
+    margin-top: 120px;
 }
  .main3 img{
     height: 250px;
     width:200px;
-    border: 2px solid rgb(237, 153, 181);
+    border: 2px solid rgb(33, 91, 36);
     padding: 5%;
 
  }
  .main2{
+    background-color: rgb(160, 181, 150);
+    border-radius: 16px;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 120px;
     padding: 5%;
     gap: 5%;
  }
- 
+/*  
  .com{
     overflow-x: hidden;
- }
+ } */
  .step1 h1{
     font-style: italic;
     color: brown;
     font-size: 50px;
  }
 .serv1{
-    background-image: url(https://img.freepik.com/free-photo/scissors-hair-trimmer-copy-space_23-2148352943.jpg?t=st=1725447476~exp=1725451076~hmac=f7f4fbbf32331c948d83705a357327307d47e522f014172f547f03aa96d37f44&w=740) ;
+    background-image: url(https://img.freepik.com/free-photo/young-beautiful-brunette-girl-tropical-plants-grey-wall_176420-6400.jpg?t=st=1725508318~exp=1725511918~hmac=b9ec63efe91703ea5e8fddf12448c37e4cf2bfc0949b92ae6ec855e37cf7f028&w=960) ;
 background-repeat: no-repeat;
 border-radius: 20px;
-margin: 40px;
+margin: 30px;
 height: 500px;
-width: 1000px;
+width: 1700px ;
 margin-top: 120px;
  }
  /* .serv1:hover .serv2{
@@ -443,5 +451,112 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
     background-color: #1c3820;
 }
+.ser7{
+    background-image: url(https://templates.hibootstrap.com/jeel/default/assets/images/get-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin: 50px;
+padding: 5%;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.rin{
+    background-color: #70e38163;
+    height: 400px;
+    margin: 0px 0px 40px 0px;
+    padding: 5%;
+}
+.bore{
+    border: 2px solid white;
+     padding-top:10%;
+   
+}
+.bore h1{
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 50px;
+    margin-left: 15px;
+}
+.bore button{
+    border-radius: 10px;
+    background-color:#f8c9d3;
+    border-style: none;
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
+.special{
+    text-align: center;
+    color: #1c3820;
+}
+.special h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+    font-size: 50px;
+   
+}
+.ser8{
+    display: flex;
+    gap: 5%;
+    margin-left: 170px;
+    margin-top: 30px;
+}
+.doc1{
+    background-image: url(https://templates.hibootstrap.com/jeel/default/assets/images/reviews/reviews4.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    background-color: #1c382082;
+}
+.doc2{
+    background-image: url(https://templates.hibootstrap.com/jeel/default/assets/images/reviews/reviews2.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+
+}
+.doc3{
+    background-image: url(https://templates.hibootstrap.com/jeel/default/assets/images/reviews/reviews3.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+.doc1 img ,.doc2 img, .doc3 img{
+    height: 200px;
+    width: 200px;
+}
+.ser9{
+    margin-top: 30px;
+    height: 500px;
+    background-color: #175320c2;
+    border-radius: 16px;
+    margin: 5%;
+}
+.ser9 h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+   padding: 3%;
+}
+.review{
+   text-align: center;
+    height: 300px;
+    width: 600px;
+    padding: 3%;
+   margin-left: 170px;
+    background-color:#faf8f9b4;
+}
+.review h1{
+    color: yellow;
+    
+}
+
 
 

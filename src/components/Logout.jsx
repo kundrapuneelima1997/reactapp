@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 function Logout() {
   return (
-    <div className='logoutbody mt-0'>
+    <div className='logoutbody '>
     <div className='out1'>
         <h3>Are you leaving?</h3>
         <div className='out2'>
