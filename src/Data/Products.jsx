@@ -1,5 +1,4 @@
 
-
 import shampoo from '../Assets/shampoo.jpg';
 import hairoil from '../Assets/hairoil.jpg';
 import hairserum from'../Assets/hair serum.jpg';
