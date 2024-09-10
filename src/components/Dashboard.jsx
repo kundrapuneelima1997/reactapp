@@ -49,7 +49,7 @@ function Dashboard(){
           <div className="dash3">
             <div className="dash3h">
             
-            <h1>Our New Skin Care Products For You</h1>
+            <h1>Our New Skin Care Product For You</h1>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
 
 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here</p>
