@@ -10,7 +10,10 @@ import Orders from './components/Orders';
 import Logout from './components/Logout';
 import Contact from './components/Contact';
 import Navbars from './components/Navbars';
+import Onepage from './components/Onepage';
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
+
+
 function App() {
   return (
     <div >
@@ -18,7 +21,7 @@ function App() {
       
      <Routes>
       <Route path='/reactapp' element={<Login/>}/>
-      <Route path='/dashboard' element={<Dashboard/>}></Route>
+      <Route path='/dashboard' element={<Dashboard/>}/>
       <Route path='/signup' element={<Signup/>}></Route>
         <Route path='/'element={<Login/>}></Route>
         <Route path='/services' element={<Services/>}></Route>
@@ -27,6 +30,8 @@ function App() {
         <Route path='/contact' element={<Contact/>}></Route>
         <Route path='/orders' element={<Orders/>}></Route>
         <Route path='/navbar' element={<Navbars/>}></Route>
+        <Route path='/orders/:id' element={<Onepage />} />
+       
      </Routes> 
       </Router>
     </div>

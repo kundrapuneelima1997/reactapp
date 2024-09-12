@@ -27,7 +27,7 @@ function Orders() {
 <img src={item.image} alt={item.ProductName}  /> 
 
 </Link>
-
+<p>{item.id}</p>
  <p>Name: {item.ProductName}</p>
  <p>Price: {item.Price}</p>
           </div>

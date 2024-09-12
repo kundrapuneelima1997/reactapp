@@ -31,6 +31,7 @@ import Col from 'react-bootstrap/Col';
          <div className="containerFluid serv1">
            
            <div className='ser2'>
+            
            <h1>Our Services</h1>
            </div>
            </div>
@@ -42,7 +43,7 @@ import Col from 'react-bootstrap/Col';
             <button className="scroll-btn left-btn" onClick={() => scroll('left')}>&lt;</button>
             <div className="gallery-container" ref={containerRef}>
                 <div className="gallery">
-                <img src="https://templates.hibootstrap.com/jeel/default/assets/images/offer/offer2.jpg" alt=" 3" />
+                <img src="https://templates.hibootstrap.com/jeel/default/assets/images/offer/offer2.jpg" alt=" 3"  className='jig'/>
                     <img src="https://templates.hibootstrap.com/jeel/default/assets/images/offer/offer3.jpg" alt=" 4" />
                     <img src="https://templates.hibootstrap.com/jeel/default/assets/images/offer/offer1.jpg" alt=" 5" />
                     <img src="https://templates.hibootstrap.com/jeel/default/assets/images/offer/offer4.jpg" alt="1" />
@@ -164,6 +165,9 @@ import Col from 'react-bootstrap/Col';
                 <h2>4.5</h2>
                 <h1><StarOutlinedIcon/> <StarOutlinedIcon/> <StarOutlinedIcon/> <StarOutlinedIcon/></h1>
               </div>
+           </div>
+           <div className="fig">
+            <h1>face pack</h1>
            </div>
             </Col>
            

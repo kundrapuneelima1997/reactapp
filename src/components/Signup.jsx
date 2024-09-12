@@ -7,20 +7,20 @@ function Signup() {
     <div className='block2'>
         
         <h4>Enter your Name</h4>
-        <input type="text" placeholder='Enter your Name' /><br/><br/>
+        <input type="text"  /><br/>
         <h4>Enter your email id</h4>
-        <input type="text" placeholder='Email id' /><br/><br/>
+        <input type="text"  /><br/>
         <h4>Create user name</h4>
-        <input type="text" placeholder='Create User Name' /><br/><br/>
+        <input type="text"  /><br/>
         
         
          <h4> Create Password</h4>
-         <input type="Password" placeholder='Create your Password' /><br/><br/>
+         <input type="Password"  /><br/>
          <h4>Confirm pasword</h4>
-         <input type="Password" placeholder='Confirm password' /><br/><br/>
+         <input type="Password"  /><br/>
          </div>
          <div className='signup1'>
-         <button><Link to='/'>Sign up</Link></button>
+         <button><Link to='/' className='link1'>Sign up</Link></button>
            
             
          </div>

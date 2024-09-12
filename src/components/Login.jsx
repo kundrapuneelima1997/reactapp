@@ -16,7 +16,7 @@ function Login() {
             </div>
             <div className='signup'>
                     <Link to='/Dashboard'><button>Log in</button></Link><br/><br/><br/><br/>
-                    <Link to='/Signup'><h3>Sign up?</h3></Link>
+                    <Link to='/Signup' className='link1'><h3>Sign up?</h3></Link>
                     
             </div>
         </div>
