@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactapp/static/css/main.3b181aa4.css",
-    "main.js": "/reactapp/static/js/main.d6f74322.js",
+    "main.css": "/reactapp/static/css/main.efd40fe8.css",
+    "main.js": "/reactapp/static/js/main.45d7524c.js",
     "static/js/453.1fd1f10b.chunk.js": "/reactapp/static/js/453.1fd1f10b.chunk.js",
     "static/media/hair serum.jpg": "/reactapp/static/media/hair serum.0abbf7ca2c86e8f43eaa.jpg",
     "static/media/bodylotion.jpg": "/reactapp/static/media/bodylotion.39dd32c62c19335a8583.jpg",
@@ -16,12 +16,12 @@
     "static/media/face serum.jpg": "/reactapp/static/media/face serum.eb95a14513f849b4446e.jpg",
     "static/media/suncreen.jpg": "/reactapp/static/media/suncreen.bbbb656b07ea95697efa.jpg",
     "index.html": "/reactapp/index.html",
-    "main.3b181aa4.css.map": "/reactapp/static/css/main.3b181aa4.css.map",
-    "main.d6f74322.js.map": "/reactapp/static/js/main.d6f74322.js.map",
+    "main.efd40fe8.css.map": "/reactapp/static/css/main.efd40fe8.css.map",
+    "main.45d7524c.js.map": "/reactapp/static/js/main.45d7524c.js.map",
     "453.1fd1f10b.chunk.js.map": "/reactapp/static/js/453.1fd1f10b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b181aa4.css",
-    "static/js/main.d6f74322.js"
+    "static/css/main.efd40fe8.css",
+    "static/js/main.45d7524c.js"
   ]
 }
